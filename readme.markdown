@@ -2,11 +2,11 @@
 
 This is a collection of hacks I've made to make editing text easier and more consistent on Windows and Mac (Linux coming ... eventually).
 
-	* Uses a spatial layout instead of mapping functions to the first letter in their name.
-	* Aims to be easier on your hands than usual keyboard chords.
-	* Avoids the modes of Vi-like systems. If you release all keys, the keyboard goes back to working as normal.
-	* Hijacks the input of the entire system, and so should work in almost every program.
-	* Overrides a minimum of default features, so your computer will still be useable for other people. (It mostly only overrides Caps Lock, WHICH NO ONE SHOULD USE ANYWAY!!!!!1!)
+* Uses a spatial layout instead of mapping functions to the first letter in their name.
+* Aims to be easier on your hands than usual keyboard chords.
+* Avoids the modes of Vi-like systems. If you release all keys, the keyboard goes back to working as normal.
+* Hijacks the input of the entire system, and so should work in almost every program.
+* Overrides a minimum of default features, so your computer will still be useable for other people. (It mostly only overrides Caps Lock, WHICH NO ONE SHOULD USE ANYWAY!!!!!1!)
 
 ## Usage
 
