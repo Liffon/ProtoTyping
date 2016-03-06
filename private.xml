@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>ProtoTyping</name>
+    <modifierdef>PROTOTYPING_DELETE</modifierdef>
+    <item>
+      <name>ProtoType for more hands</name>
+      <identifier vk_config="true">notsave.prototyping</identifier>
+      
+      <autogen>__KeyToKey__ 
+        KeyCode::S, 
+        KeyCode::SHIFT_L,
+      </autogen>
+      <autogen>__KeyToKey__
+        KeyCode::D,
+        KeyCode::VK_MODIFIER_PROTOTYPING_DELETE,
+      </autogen>
+      <autogen>__KeyToKey__
+        KeyCode::F,
+        KeyCode::OPTION_L,
+      </autogen>
+      
+      <autogen>__KeyToKey__ 
+        KeyCode::J, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::DELETE
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::L, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::FORWARD_DELETE
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::U, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::DELETE, ModifierFlag::OPTION_L
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::O, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L
+      </autogen>
+
+      <autogen>__KeyToKey__ 
+        KeyCode::I, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L,
+        KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+        KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L,
+        KeyCode::DELETE,
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::K, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L,
+        KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+        KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L,
+        KeyCode::DELETE,
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::SEMICOLON, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+        KeyCode::DELETE,
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::H, ModifierFlag::PROTOTYPING_DELETE | ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+        KeyCode::DELETE,
+      </autogen>
+      
+      <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+      <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+      <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+      <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::U, ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::O, ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::SEMICOLON, ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L
+      </autogen>
+      <autogen>__KeyToKey__ 
+        KeyCode::H, ModifierFlag::CONTROL_L, 
+        KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L
+      </autogen>
+      
+    </item>
+    <item>
+      <name>Left Control activates ProtoType mode</name>
+      <identifier>private.prototyping</identifier>
+      <autogen>
+        __KeyToKey__ 
+        KeyCode::CONTROL_L,
+        KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_prototyping, ModifierFlag::CONTROL_L
+      </autogen>
+    </item>
+  </item>
+</root>
