@@ -46,8 +46,6 @@ CapsLock & o::Chorded("^{Right}", "^{Delete}", "+^{Right}")
 CapsLock & h::Chorded("{Home}", "+{Home}{Delete}", "+{Home}")
 CapsLock & SC027::Chorded("{End}", "+{End}{Delete}", "+{End}")
 
-CapsLock & Space::SendInput, {Enter}
-
 ; AltGr on only right alt is stupid
 
 LAlt::RAlt
