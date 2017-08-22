@@ -31,7 +31,12 @@ When you hold down Caps Lock, you are in ProtoTyping mode. You can then use the 
 2. Open `Run` with `Win + R`, type `shell:startup` and press enter. Your startup folder opens.
 3. Put a shortcut to `ProtoTyping/ProtoTyping.ahk` in the startup folder.
 
-### Mac
+### Mac (10.12 Sierra or newer)
+
+1. Install [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements/blob/master/README.md)
+2. Move the file `ProtoTyping/karabiner.json` to `~/.config/karabiner/karabiner.json`.
+
+### Mac (before 10.12 Sierra)
 
 1. Install [Karabiner](https://pqrs.org/osx/karabiner/)
 2. Go into `System Preferences -> Keyboard -> Keyboard -> Modifier keys` and set Caps Lock to map to Control.
