@@ -31,6 +31,7 @@ While holding down Caps Lock, you are in _ProtoTyping mode_. You can then use th
 2. Open `Run` with `Win + R`, type `shell:startup` and press enter. Your startup folder opens.
 3. Put `ProtoTyping.ahk` in the startup folder. This makes it start at login.
 4. Double-click `ProtoTyping.ahk` to start it for this login session.
+5. (optional) Edit `ProtoTyping.ahk` in case you want to disable anything.
 
 ### Mac (10.12 Sierra or newer)
 
