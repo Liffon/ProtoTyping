@@ -21,10 +21,10 @@ Chorded(normal, delete, select)
 
 CapsLock & r::Reload
 
-CapsLock & s::
+CapsLock & f::
 	selectMode := 1
 Return
-CapsLock & s up::
+CapsLock & f up::
 	selectMode := 0
 Return
 CapsLock & d::

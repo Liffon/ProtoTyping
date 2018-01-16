@@ -11,12 +11,12 @@ This is a collection of hacks I've made to make editing text simpler, more ergon
 
 ## Usage
 
-When you hold down Caps Lock, you are in ProtoTyping mode. You can then use the following:
+While holding down Caps Lock, you are in _ProtoTyping mode_. You can then use the following:
 
 * `ijkl` are arrow keys.
 * `u` and `o` steps one word in either direction.
 * `h` and `the key right of L` go to the beginning and end of the line.
-* Holding `s` will make the other keys select text (just like holding shift normally).
+* Holding `f` will make the other keys select text (just like holding shift normally).
 * Holding `d` will make the other keys delete text (for example, `Caps+d+u` will delete one word backward).
 	* There is a special case for `d+i` and `d+k` (up and down), which will delete the current line and move the cursor up or down. This is very useful when programming.
 * Windows-specific:

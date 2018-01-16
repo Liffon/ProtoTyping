@@ -10,7 +10,7 @@
       <identifier vk_config="true">notsave.prototyping</identifier>
       
       <autogen>__KeyToKey__ 
-        KeyCode::S, 
+        KeyCode::F, 
         KeyCode::SHIFT_L,
       </autogen>
       <autogen>__KeyToKey__
@@ -18,7 +18,7 @@
         KeyCode::VK_MODIFIER_PROTOTYPING_DELETE,
       </autogen>
       <autogen>__KeyToKey__
-        KeyCode::F,
+        KeyCode::S,
         KeyCode::OPTION_L,
       </autogen>
       
