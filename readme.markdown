@@ -20,8 +20,7 @@ While holding down Caps Lock, you are in _ProtoTyping mode_. You can then use th
 * Holding `d` will make the other keys delete text (for example, `Caps+d+u` will delete one word backward).
 	* There is a special case for `d+i` and `d+k` (up and down), which will delete the current line and move the cursor up or down. This is very useful when programming.
 * Windows-specific:
-	* The left Windows key is mapped to Control, so that most commands are the same on Windows and Mac.
-	* The left `Alt` is mapped to a second `Alt Gr` so that you can choose the least contorting way to type special characters.
+	* Caps Lock acts as Alt Gr when combined with 2, 4, 7, 8, 9, 0, + or the key that on a Swedish keyboard corresponds to `¨`
 
 ## Installation
 
