@@ -20,7 +20,7 @@ While holding down Caps Lock, you are in _ProtoTyping mode_. You can then use th
 * Holding `d` will make the other keys delete text (for example, `Caps+d+u` will delete one word backward).
 	* There is a special case for `d+i` and `d+k` (up and down), which will delete the current line and move the cursor up or down. This is very useful when programming.
 * Windows-specific:
-	* Caps Lock acts as Alt Gr when combined with 2, 4, 7, 8, 9, 0, + or the key that on a Swedish keyboard corresponds to `¨`
+	* Caps Lock acts as Alt Gr when combined with 2, 4, 7, 8, 9, 0, + or the key that on a Swedish keyboard layout corresponds to `¨`. This is useful when writing code using a Swedish keyboard layout.
 
 ## Installation
 
