@@ -19,7 +19,7 @@ Chorded(normal, delete, select)
 	}
 }
 
-CapsLock & r::Reload
+; CapsLock & r::Reload
 
 CapsLock & f::
 	selectMode := 1
@@ -45,6 +45,8 @@ CapsLock & o::Chorded("^{Right}", "^{Delete}", "+^{Right}")
 
 CapsLock & h::Chorded("{Home}", "+{Home}{Delete}", "+{Home}")
 CapsLock & SC027::Chorded("{End}", "+{End}{Delete}", "+{End}")
+CapsLock & p::SendInput, {PgUp}
+CapsLock & SC01A::SendInput, {PgDn}
 CapsLock & 2::SendInput, {RAlt down}2{RAlt up}
 CapsLock & 4::SendInput, {RAlt down}4{RAlt up}
 CapsLock & 7::SendInput, {RAlt down}7{RAlt up}
@@ -52,7 +54,13 @@ CapsLock & 8::SendInput, {RAlt down}8{RAlt up}
 CapsLock & 9::SendInput, {RAlt down}9{RAlt up}
 CapsLock & 0::SendInput, {RAlt down}0{RAlt up}
 CapsLock & +::SendInput, {RAlt down}{+}{RAlt up}
-CapsLock & sc01B::SendInput, {RAlt down}{vkBA}{RAlt up}{Space}
+CapsLock & sc01B::SendInput, {RAlt down}{vkBA}{RAlt up}
+
+CapsLock & r::SendInput, {LCtrl down}b{LCtrl up}
+
+; NOTE: to find out scan codes (SCxxx) for a strange key,
+; run the script by dragging it to the AHK executable (instead of compiling it)
+; and then open the main window and select View->Key History in the menu.
 
 ; AltGr on only right alt is stupid
 
